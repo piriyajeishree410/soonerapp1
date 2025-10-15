@@ -1,13 +1,11 @@
 // public/js/ownerSignUp.js
 
 // ===== API CONFIG =====
-// If your pages run from http://localhost:5173, keep this base and include credentials:
-const API_BASE = "http://localhost:3000";
-const FETCH_CREDENTIALS = "include";
+// const API_BASE = "http://localhost:3000";
+// const FETCH_CREDENTIALS = "include";
 
-// If your pages are served by Express at :3000, you could use:
-// const API_BASE = window.location.origin;
-// const FETCH_CREDENTIALS = "same-origin";
+const API_BASE = window.location.origin;
+const FETCH_CREDENTIALS = "same-origin";
 
 // ===== STATE =====
 let role = "owner"; // "owner" | "customer"
